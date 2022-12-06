@@ -207,6 +207,12 @@ nav {
     border: solid #3D3D3D 1.5px;
 }
 
+.horizontal_dotted_line{
+  border-bottom: 10px dotted rgb(250, 192, 192);
+  width: 85%;
+  margin: auto
+} 
+
 
 @media screen and (min-width: 800px) {
   h1{
