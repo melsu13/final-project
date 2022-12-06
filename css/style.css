@@ -236,31 +236,13 @@ nav {
     padding: 30px 0px 30px 0px; 
   }
   .container{
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    grid-gap: 28px;
     place-items: center;
-  }
-  .container img {
-    height: auto;
-    max-width: 100%;
   }
 
   .box {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 10px;
   }
-  .box img{
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 5px;
-  }
-  
   }
 
 @media screen and (min-width: 1100px) {
@@ -287,28 +269,15 @@ nav {
     background-size: contain;
   }
   .box {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
   }
   .box img{
-    object-fit: cover;
     max-width: 250px;
-    height: auto;
-    vertical-align: middle;
-    border-radius: 5px;
   }
 
   .container{
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    grid-gap: 28px;
-    place-items: center;
   }
-  .container img {
-    height: auto;
-    max-width: 100%;
-  }
+
 }
