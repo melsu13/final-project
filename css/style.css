@@ -55,19 +55,14 @@ nav a{
   text-decoration: none; 
 }
 
-.skip {
-  background: white;
-  padding: 6px;
-  -webkit-transition: top 1s ease-out;
-  transition: left 1s ease-out;
-  z-index: 1;
-  left: -500px;
-   position: absolute;
+.skip a{
+  position: absolute;
+  top: -40px;
 }
 
-.skip:focus {
+.skip a:focus {
+  position: absolute;
   top: 20px;
-  left: 0px;
 }
 
 nav{
