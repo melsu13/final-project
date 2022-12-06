@@ -188,6 +188,9 @@ nav {
   vertical-align: middle;
   border-radius: 5px;
 }
+.box img:nth-last-child(-n+4){
+  display: none;
+}
 
 .moreimages{
     display: grid;
@@ -234,6 +237,7 @@ form button {
 }
 
 
+
 @media screen and (min-width: 800px) {
   h1{
     font-size: 70px;
@@ -268,6 +272,13 @@ form button {
 
   .box {
     justify-content: space-evenly;
+  }
+
+  .container img:last-child{
+    display: none;
+  }
+  .box img:nth-child(9){
+    display: inherit;
   }
   }
 
@@ -306,4 +317,10 @@ form button {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .container img:last-child{
+    display: inherit;
+  }
+  .box img:nth-last-child(-n+3){
+    display: inherit;
+  }
 }
