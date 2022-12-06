@@ -55,14 +55,19 @@ nav a{
   text-decoration: none; 
 }
 
-.skip a{
-  position: absolute;
-  top: -40px;
+.skip {
+  background: white;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: left 1s ease-out;
+  z-index: 1;
+  left: -500px;
+   position: absolute;
 }
 
-.skip a:focus {
-  position: absolute;
+.skip:focus {
   top: 20px;
+  left: 0px;
 }
 
 nav{
@@ -201,12 +206,6 @@ nav {
     border-radius: 15px;
     border: solid #3D3D3D 1.5px;
 }
-
-.horizontal_dotted_line{
-  border-bottom: 10px dotted rgb(250, 192, 192);
-  width: 85%;
-  margin: auto
-} 
 
 
 @media screen and (min-width: 800px) {
